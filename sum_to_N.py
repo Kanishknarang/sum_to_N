@@ -14,6 +14,7 @@ def sum_to_N(arr, N):
         if t in s:
             return [arr.index(num), arr.index(t)] #returns a list containg both the index
         
+        #adding num to set
         s.add(num)
 
 if __name__ == "__main__":
